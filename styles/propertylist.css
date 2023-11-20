@@ -13,7 +13,7 @@
     position: relative;
     width: 100%;
     height: 700px;
-    background:url(../Images/aboutusbg.jpg) no-repeat;
+    background:url(../images/aboutusbg.jpg) no-repeat;
     background-position-y: 60%;
     overflow: hidden;
 }
@@ -755,7 +755,7 @@ user-select:none
     height: 50px !important;
     position: relative !important;
     color: rgba(0, 0, 0, 0)!important;
-    background:url(../Images/left.png) no-repeat;
+    background:url(../images/left.png) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -769,7 +769,7 @@ user-select:none
     height: 50px !important;
     position: relative !important;
     color: rgba(0, 0, 0, 0)!important;
-    background:url(../Images/right.png) no-repeat;
+    background:url(../images/right.png) no-repeat;
     background-size: 100% 100%;
 }
 

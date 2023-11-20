@@ -4632,7 +4632,7 @@
     }
   }
 
-  function preloadImages() {
+  function preloadimages() {
     var swiper = this;
     swiper.imagesToLoad = swiper.$el.find('img');
 
@@ -4641,7 +4641,7 @@
       if (swiper.imagesLoaded !== undefined) swiper.imagesLoaded += 1;
 
       if (swiper.imagesLoaded === swiper.imagesToLoad.length) {
-        if (swiper.params.updateOnImagesReady) swiper.update();
+        if (swiper.params.updateOnimagesReady) swiper.update();
         swiper.emit('imagesReady');
       }
     }
@@ -4654,7 +4654,7 @@
 
   var images = {
     loadImage: loadImage,
-    preloadImages: preloadImages
+    preloadimages: preloadimages
   };
 
   function checkOverflow() {
@@ -4777,9 +4777,9 @@
     preventClicks: true,
     preventClicksPropagation: true,
     slideToClickedSlide: false,
-    // Images
-    preloadImages: true,
-    updateOnImagesReady: true,
+    // images
+    preloadimages: true,
+    updateOnimagesReady: true,
     // loop
     loop: false,
     loopAdditionalSlides: 0,
@@ -5017,7 +5017,7 @@
           currentY: 0,
           diff: 0
         },
-        // Images
+        // images
         imagesToLoad: [],
         imagesLoaded: 0
       }); // Install Modules
@@ -5313,8 +5313,8 @@
         swiper.setGrabCursor();
       }
 
-      if (swiper.params.preloadImages) {
-        swiper.preloadImages();
+      if (swiper.params.preloadimages) {
+        swiper.preloadimages();
       } // Slide To Initial Slide
 
 
@@ -8167,8 +8167,8 @@
     },
     on: {
       beforeInit: function beforeInit(swiper) {
-        if (swiper.params.lazy.enabled && swiper.params.preloadImages) {
-          swiper.params.preloadImages = false;
+        if (swiper.params.lazy.enabled && swiper.params.preloadimages) {
+          swiper.params.preloadimages = false;
         }
       },
       init: function init(swiper) {

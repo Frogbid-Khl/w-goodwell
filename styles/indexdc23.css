@@ -8,7 +8,7 @@
     margin-top: 75px;
     /* width: 100%; */
     /* background-color: #ffffff; */
-    background: url(../Images/goodwell_bg.svg) no-repeat;
+    background: url(../images/goodwell_bg.svg) no-repeat;
     background-position: center center;
     background-size: cover;
     /*background-attachment:fixed;*/
@@ -27,7 +27,7 @@
     position: relative;
     width: 100%;
     height: 700px;
-    /* background: url(../Images/indexbg.png) no-repeat; */
+    /* background: url(../images/indexbg.png) no-repeat; */
     background-size: cover;
     background-position-y: 20%;
     overflow: hidden;
@@ -209,37 +209,37 @@
         }
 
     .body .sixbox .box1 {
-        background: url(../Images/aboutusbg.jpg) no-repeat;
+        background: url(../images/aboutusbg.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .body .sixbox .box2 {
-        background: url(../Images/newsawardpreview.jpg) no-repeat;
+        background: url(../images/newsawardpreview.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .body .sixbox .box3 {
-        background: url(../Images/entertainmentpreview.jpg) no-repeat;
+        background: url(../images/entertainmentpreview.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .body .sixbox .box4 {
-        background: url(../Images/sustainabilitybg.jpg) no-repeat;
+        background: url(../images/sustainabilitybg.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .body .sixbox .box5 {
-        background: url(../Images/customerserpreview.jpg) no-repeat;
+        background: url(../images/customerserpreview.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     .body .sixbox .box6 {
-        background: url(../Images/careerpreview.jpg) no-repeat;
+        background: url(../images/careerpreview.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -809,7 +809,7 @@
         width: 1200px;
         height: 740px;
         padding-left: 50px;
-        background: url(../Images/indexvideo.png) no-repeat;
+        background: url(../images/indexvideo.png) no-repeat;
         background-size: cover;
     }
 
@@ -817,7 +817,7 @@
     overflow: hidden;
     height: 180px;
     float: none;
-    background: url(../Images/indexadvicebg.jpg) no-repeat;
+    background: url(../images/indexadvicebg.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -1010,7 +1010,7 @@
     height: 50px !important;
     position: relative !important;
     color: rgba(0, 0, 0, 0) !important;
-    background: url(../Images/left.png) no-repeat;
+    background: url(../images/left.png) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -1024,7 +1024,7 @@
     height: 50px !important;
     position: relative !important;
     color: rgba(0, 0, 0, 0) !important;
-    background: url(../Images/right.png) no-repeat;
+    background: url(../images/right.png) no-repeat;
     background-size: 100% 100%;
 }
 
