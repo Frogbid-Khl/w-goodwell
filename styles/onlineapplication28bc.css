@@ -1,0 +1,478 @@
+
+
+/* ---------------body-------------------- */
+ul {
+    font-family: "Noto Sans SC";
+}
+
+.access {
+    position: absolute;
+    left: 0px;
+    top: -5000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.header .navbar1 .nav li {
+    font-family: "Noto Sans SC",'Noto Sans TC';
+}
+
+.footer {
+    font-family: "Noto Sans SC",'Noto Sans TC';
+}
+
+.body {
+    margin-top: 75px;
+    width: 100%;
+    /* font-family: '黑体'; */
+    font-family: "Noto Sans SC",'Noto Sans TC';
+}
+
+    .body .newscontent .head {
+        color: #806b26;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .body .swiper {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background: url(../Images/careersbg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        background-color: #ccc;
+        line-height: 1.42857143;
+    }
+
+.body .swiper img{
+    width: 100%;
+    height: 700px;
+}
+
+        .body .swiper .title {
+            position: absolute;
+            display: flex;
+            left: 100px;
+            top: 60px;
+            text-shadow: 0px 5px 5px rgb(0 0 0 / 25%);
+        }
+
+.body .swiper .text{
+    /* display: block;  */
+    width: 50px;
+   text-align: center;
+    color: white;
+   font-size: 50px;
+    margin-right: 20px;
+   letter-spacing:10px;
+   font-weight: bold;
+   /* overflow: hidden; */
+   /* white-space:pre-wrap; */
+  
+}
+
+.body .swiper .dotline {
+    margin-right: 2px;
+    height: 250px;
+    border-left: dotted 5px #ffffff;
+    margin-top: 10px;
+}
+
+.body .swiper .engtext {
+    color: #ffffff;
+    font-size: 50px;
+    word-break: break-word;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.body .swiper .newstype {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.body .swiper .newstype .items {
+    overflow: hidden;
+    position: absolute;
+   left: 50%;
+   display: flex;
+   top: 50%; 
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   
+}
+
+.body .swiper .newstype .items .item {
+    float: left;
+    width: 225px;
+    height: 52px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    box-sizing: border-box;
+    line-height: 52px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    letter-spacing: 3px;
+}
+
+.body .swiper .newstype .items .item:nth-child(2) {
+    border-left: 0;
+    border-right: 0;
+}
+
+.body .swiper .newstype .items .item:nth-child(3) {
+    border-right: 0;
+}
+
+.body .swiper .newstype .items .item:nth-child(4) {
+    border-right: 0;
+}
+
+
+.body .swiper .newstype .items .item:hover {
+    color: #ae9259;
+}
+
+.body .newscontent {
+    /* height: 1000px; */
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffff ;
+    margin: 50px 0;
+}
+
+.body .newscontent  .form {
+    border: 1px solid #806b26;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.body .newscontent  .form .title {
+    color: #806b26;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.body .newscontent .form .rowcol  .titles {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.body .newscontent .form .rowcol {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.body .newscontent .form .rowcol select {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    width: 155px;
+    border-radius: 5px;
+}
+
+.body .newscontent .form .rowcol input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.body .newscontent .form .rowcol textarea {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.body .newscontent .form .rowcol button {
+    background-color: #806b26;
+    color: #fff;
+    outline: none;
+    border: 1px solid #806b26;
+    padding: 3px 7px;
+}
+
+.body .newscontent .form .line {
+    width: 100%;
+    height: 1px;
+    background-color: #806b26;
+}
+
+.body .newscontent .form .intro {
+    margin: 20px 0;
+    color: #806b26;
+    font-weight: bold;
+}
+
+#ContentPlaceHolder1_tf_position {
+    width:442px;
+}
+
+#ContentPlaceHolder1_tf_address {
+    width: 442px;
+}
+
+#ContentPlaceHolder1_tf_name_chi {
+    width: 442px;
+}
+
+
+
+    #ContentPlaceHolder1_tf_demand_salary {
+        width: 182px;
+    }
+
+.body .newscontent .rowcol .item .titles {
+    margin-bottom: 10px;
+    font-weight:500;
+
+}
+
+.body .newscontent .rowcol .item input {
+    margin-bottom:0;
+}
+
+    .body .newscontent .rowcol input[type="submit"] {
+        padding:0 8px;
+    }
+
+
+.body .newscontent .rowcol .item .datetime {
+    position: relative;
+    width: 182px;
+}
+
+.body .newscontent .rowcol .item .datetime input {
+    padding-right: 27px;
+    position: relative;
+    /*margin-bottom:10px;*/
+}
+
+.body .newscontent .rowcol .item .datetime img {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 25px;
+    width: 25px;
+}
+
+.body .newscontent .rowcol .addsth:hover {
+    border-bottom:1px solid black;
+    cursor:pointer;
+}
+
+.body .newscontent .rowcol .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.body .newscontent .text .title {
+    font-size: 30px;
+    color: #806b26;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.body .newscontent .text .content {
+    font-size: 18px;
+    font-weight: 300;
+    line-height:30px;
+    /* width: 60%; */
+    margin-bottom: 30px;
+    width:unset;
+}
+
+.body .newscontent .img {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .newscontent .img .row {
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.body .newscontent .img .item {
+    margin-right: 20px;
+}
+
+.body .newscontent .rowcol .item label{
+    position: relative;
+}
+
+
+#ContentPlaceHolder1_upload_file {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+#btn{
+    margin-right: 5px;
+    padding:2px 10px;
+    color:white;
+    background-color: #ae9259;
+    outline: none;
+    border: 1px solid #806b26;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+#text{
+    color: black;
+}
+
+.footer .list .menu ul {
+    margin-left:0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background-color: #806b26 !important;
+}
+
+.ui-dialog .ui-dialog-title {
+    color: white;
+}
+.u-error-list font {
+    color: #806b26;
+}
+
+.body .newscontent .content .form .must {
+    color: #979797;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#ContentPlaceHolder1_btnSubmit {
+    background-color: #806b26;
+    color: white;
+    outline:unset;
+    border:1px solid #806b26;
+}
+/* ---------------body-------------------- */
+/*         response      */
+@media (max-width: 767px) {
+    html {
+        font-size: 50px;
+    }
+    .body .swiper {
+        padding: 0;
+        height: 400px;
+    }
+
+        .body .swiper .text {
+            font-size: 35px;
+            width: auto;
+            width: 35px;
+        }
+
+        .body .swiper .engtext {
+            font-size: 35px;
+        }
+
+        .body .swiper .dotline {
+            height: 200px;
+        }
+
+    .body .swiper .title {
+        left: 20px;
+        top: 0;
+    }
+
+    .body .swiper .newstype {
+        display: none;
+    }
+
+    .body .newscontent .img {
+        /* width: 100%; */
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .body .newscontent .rowcol {
+        flex-direction: column;
+    }
+
+    .body .newscontent .img .row{
+        width: 50%;
+        flex-direction: column;
+    }
+
+ /*   .body .newscontent .text .title {
+        font-size: 0.5rem;
+    }
+
+    .body .newscontent .text .content {
+        font-size: 0.3rem;
+    }*/
+
+    .body .newscontent .img .item {
+        width: 100%;
+    }
+
+    .body .newscontent .img .item img {
+        width: 100%;
+        
+    }
+
+
+    #ContentPlaceHolder1_tf_position {
+        width: auto;
+    }
+
+    #ContentPlaceHolder1_tf_address {
+        width: auto;
+    }
+
+    #ContentPlaceHolder1_tf_demand_salary {
+        width: auto;
+    }
+    .header .iconbutton span {
+        font-size:20px;
+    }
+
+    .body .newscontent .rowcol .item .datetime {
+        width:100%;
+    }
+
+    .body .newscontent .rowcol .addsth:hover {
+        border-bottom:unset;
+        cursor: pointer;
+    }
+
+}   
+
+
+/*         response      */
+
+
+/* Powered by iFour Limited */
