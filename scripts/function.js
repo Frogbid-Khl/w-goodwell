@@ -865,15 +865,15 @@ $('.totop').keypress(function (e) {
 })
 
 $('.totop').mouseenter(function(){
-    $('.totop').css('background-color','#806b26') 
-    $('.totop').find('.triangle').css('border-top','24px solid #f1f1f1')
+    $('.totop').css('background-color','#2770b5')
+    $('.totop').find('.triangle').css('border-top','24px solid #0b2c5f')
     $('.totop').css('cursor','pointer') 
 })
 
 
 $('.totop').mouseleave(function(){
     $('.totop').css('background-color','#f1f1f1') 
-    $('.totop').find('.triangle').css('border-top','24px solid #806b26')
+    $('.totop').find('.triangle').css('border-top','24px solid #0b2c5f')
 })
 
 $('.iconbutton').click(function(){

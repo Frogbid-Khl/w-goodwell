@@ -32,7 +32,11 @@
 a {
     text-decoration: none;
     padding: 10px;
-    color: #826a2b;
+    color: #2770b5;
+}
+a:hover {
+    text-decoration: none;
+    color: #0b2c5f;
 }
 
 .pointer:hover {
@@ -57,7 +61,7 @@ body {
     z-index: 99;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #bfecff;
 }
 
     .header .logo {
@@ -355,7 +359,7 @@ body {
         width: 60px;
         height: 60px;
         margin: 0 auto;
-        border: 1px solid #806b26;
+        border: 1px solid #0b2c5f;
         border-radius: 20%;
         margin-bottom: 40px;
         margin-top: 20px;
@@ -367,21 +371,26 @@ body {
             left: 50%;
             width: 0;
             height: 0;
-            border-top: 24px solid #806b26;
+            border-top: 24px solid #0b2c5f;
             border-right: 24px solid transparent;
             transform: translate(-50%,-30%) rotate(45deg);
         }
+.footer .totop:hover {
+
+color:#2770b5 ;
+}
+
 
     .footer .fline {
         height: 1px;
-        background-color: #9c9c9c;
+        background-color: #2770b5;
         margin-bottom: 20px;
     }
 
     .footer .sline {
         margin-bottom: 0px;
         height: 1px;
-        background-color: #9c9c9c;
+        background-color: #2770b5;
     }
 
     .footer .list {
@@ -626,7 +635,7 @@ body {
 
             .header .iconbutton span {
                 font-size: 0.4rem;
-                color: #806b26;
+                color: #2770b5;
             }
 
     .footer .list {
@@ -719,7 +728,7 @@ body {
 
             .header .iconbutton span {
                 font-size: 0.4rem;
-                color: #806b26;
+                color: #0b2c5f;
             }
 
     .footer .list {
