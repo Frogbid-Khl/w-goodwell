@@ -1235,7 +1235,7 @@ a:hover, a:active, a:focus {
     .body .news .contentbody .message .dotline {
         width: 150px;
         height: 1px;
-        border-bottom: dotted 5px #85712f;
+        border-bottom: dotted 5px #0b2c5f;
         border-left: hidden;
     }
 
