@@ -1256,7 +1256,7 @@ a:hover, a:active, a:focus {
     .body .property .propertyact .head {
         margin-bottom: 0;
         width: auto;
-        margin-left: 20px;
+       /* margin-left: 20px;*/
     }
 
     .body .property .propertyact .dotlines {

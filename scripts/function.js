@@ -3,12 +3,12 @@ var n=0
 //跳转
 
 $('.logo').click(function(){
-    window.location.href = "index.aspx"
+    window.location.href = "index.html"
 })
 
 $('.logo').keypress(function (e) {
     if (e.which == 13) {
-        window.location.href = "index.aspx"
+        window.location.href = "index.html"
         return false;
     }
 })

@@ -689,6 +689,14 @@ color:#2770b5 ;
 
 
 @media (max-width: 767px) {
+.im{
+    height: 381px;
+}
+    .footer {
+
+          bottom: 0;
+          position: fixed;
+    }
     html {
         font-size: 50px;
     }
