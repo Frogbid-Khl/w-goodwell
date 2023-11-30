@@ -29,11 +29,19 @@
 }
 
 
+.nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #2770b5;
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
     padding: 10px;
     color: #2770b5;
 }
+
 a:hover {
     text-decoration: none;
     color: #0b2c5f;
@@ -90,7 +98,7 @@ body {
 
     .header .navbar1 {
         display: flex;
-        margin-right: 50px;
+        margin-right: 200px;
     }
 
     .header .iconbutton {
@@ -805,6 +813,74 @@ color:#2770b5 ;
     }
 }
 
+
+/* Basic styling for the circular button */
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #bfecff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordered{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 5px;
+    margin: 5px;
+}
+.bordered h3{
+    margin: 20px;
+}
+.banner{
+    position: relative;
+    height: 150px;
+}
+.second-row-1{
+    position: absolute;
+    left:27.3%;
+    transform: translate(-27.3%,0%);
+}
+.second-row-2{
+    position: absolute;
+    left:49.4%;
+    transform: translate(-49.4%,0%);
+}
+.second-row-3{
+    position: absolute;
+    left:70.6%;
+    transform: translate(-70.6%,0%);
+}
+
+@media (max-width: 992px) {
+    .second-row-1{
+        position: unset;
+        left: unset;
+        transform: unset;
+    }
+    .second-row-2{
+        position: unset;
+        left: unset;
+        transform: unset;
+    }
+    .second-row-3{
+        position: unset;
+        left: unset;
+        transform: unset;
+    }
+    .banner{
+        height: 250px;
+    }
+}
 /* navbar response */
 
 
