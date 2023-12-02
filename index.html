@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-hk">
 <head>
-    <title>高衞物業管理有限公司_主頁</title>
+    <title>偉一泳池管理有限公司</title>
     <meta name='description' content=''/>
     <meta name='keyword'
           content=''/>
@@ -65,6 +65,12 @@
                 </ul>
             </div>
             <div class="iconbutton">
+                <a href="#" class="" tabindex="0" style="padding: 10px 10px 10px 10px"><img src="images/facebook.png"
+                                                                                            style="height: 30px; width: auto">
+                </a>
+                <a href="#" class="" tabindex="0" style="padding: 10px 20px 10px 10px"><img src="images/instagram.png"
+                                                                                            style="height: 32px; width: auto">
+                </a>
                 <span class="glyphicon glyphicon-align-justify" tabindex="0"></span>
             </div>
             <div class="snavbar aboutus">
@@ -211,7 +217,7 @@
 
                 </div>
             </div>
-            <div class="phonesnavbar">
+            <div class="phonesnavbar" id="phonesnavbar">
                 <div class="close phoneclose">
                     <span class="glyphicon glyphicon-remove" tabindex="0"></span>
                 </div>
@@ -223,28 +229,19 @@
 
 
                     <div class="item phonenavitem">
-                        <a href="#about" class="" tabindex="0"> 公司簡介
+                        <a href="index.html#about" class="" tabindex="0" onclick="mobile_modal();"> 公司簡介
                         </a>
                     </div>
 
                     <div class="item phonenavitem">
-                        <a href="#本公司服務內容" class="" tabindex="0">本公司服務內容
+                        <a href="#本公司服務內容" class="" tabindex="0" onclick="mobile_modal();">本公司服務內容
                         </a>
                     </div>
 
                     <div class="item phonenavitem">
-                        <a href="#聯絡我們" class="" tabindex="0">聯絡我們
+                        <a href="#聯絡我們" class="" tabindex="0" onclick="mobile_modal();">聯絡我們
                         </a>
                     </div>
-                    <div class="item phonenavitem">
-                        <a href="#" class="" tabindex="0"><img src="images/facebook.png" height="30px" width="auto">
-                        </a>
-                    </div>
-                    <div class="item phonenavitem">
-                        <a href="#" class="" tabindex="0"><img src="images/instagram.png" height="30px" width="auto">
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -531,53 +528,50 @@
                         </div>
                     </div>
                 </di>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4 col-lg-2 col-md-2 ">
-                            <div class="bordered">
-                                <h3>砥礪奮進</h3>
+                <div class="container-fluid">
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                                <h2>砥礪奮進</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 ">
-                            <div class="bordered">
-                                <h3>服務至上</h3>
+                            <div class="slide">
+                                <h2>服務至上</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 ">
-                            <div class="bordered">
-                                <h3>信守承諾</h3>
+                            <div class="slide">
+                                <h2>信守承諾</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 ">
-                            <div class="bordered">
-                                <h3>克盡己任</h3>
+                            <div class="slide">
+                                <h2>克盡己任</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 ">
-                            <div class="bordered">
-                                <h3>關懷員工</h3>
+                            <div class="slide">
+                                <h2>關懷員工</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 ">
-                            <div class="bordered">
-                                <h3>實務實幹</h3>
+                            <div class="slide">
+                                <h2>實務實幹</h2>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row banner">
-                        <div class="col-4 col-lg-2 col-md-2 second-row-1">
-                            <div class="bordered">
-                                <h3>創新求變</h3>
+                            <div class="slide">
+                                <h2>創新求變</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 second-row-2">
-                            <div class="bordered">
-                                <h3>勠力同心</h3>
+                            <div class="slide">
+                                <h2>勠力同心</h2>
                             </div>
-                        </div>
-                        <div class="col-4 col-lg-2 col-md-2 second-row-3">
-                            <div class="bordered">
-                                <h3>悉心栽培</h3>
+                            <div class="slide">
+                                <h2>悉心栽培</h2>
+                            </div>
+                            <div class="slide">
+                                <h2>砥礪奮進</h2>
+                            </div>
+                            <div class="slide">
+                                <h2>服務至上</h2>
+                            </div>
+                            <div class="slide">
+                                <h2>信守承諾</h2>
+                            </div>
+                            <div class="slide">
+                                <h2>克盡己任</h2>
+                            </div>
+                            <div class="slide">
+                                <h2>關懷員工</h2>
                             </div>
                         </div>
                     </div>
@@ -604,23 +598,36 @@
 
         <div class="footer">
             <div class="contain" id="聯絡我們">
-                <div class="totop">
-                    <div class="triangle" tabindex="0"></div>
-                </div>
-                <div class="fline"></div>
-                <div>
-                    <h1 class="" style="color: #0b2c5f; margin-top: 30px">
-                        聯絡我們
-                    </h1>
-                    <div>
-                        <div style="color: #0b2c5f; margin-top: 20px">
-                            <span class="">☎ 公司電話:<a href="callto:27232852">27232852</a></span>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div>
+                            <h1 class="" style="color: #0b2c5f; margin-top: 30px">
+                                聯絡我們
+                            </h1>
+                            <div>
+                                <div style="color: #0b2c5f; margin-top: 20px">
+                                    <span class="">☎ 公司電話:<a href="callto:27232852">27232852</a></span>
+                                </div>
+                                <div class="" style="color: #0b2c5f; margin-top: 20px">
+                                    <span class="">📠 傳真 :<a href="fax:27232370">27232370</a> </span>
+                                </div>
+                                <div class="" style="color: #0b2c5f; margin-top: 20px">
+                                    <span class="">✉  WhatsApp :<a href="https://wa.me/66838565">66838565</a></span>
+                                </div>
+                                <div class="" style="color: #0b2c5f; margin-top: 20px">
+                                    <span class="">🚨 24小時緊急服務電話 :<a href="callto:66838565">92208302</a></span>
+                                </div>
+                                <div class="" style="color: #0b2c5f; margin-top: 20px; font-size: 13px">
+                                    <span class="">⚓ 葵涌 葵昌路 9-15號 貴豐工業大廈 19樓 A19室</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="" style="color: #0b2c5f; margin-top: 20px">
-                            <span class="">📠 傳真 :<a href="fax:27232370">27232370</a> </span>
-                        </div>
-                        <div class="" style="color: #0b2c5f; margin-top: 20px">
-                            <span class="">✉  WhatsApp :<a href="https://wa.me/66838565">66838565</a></span>
+                    </div>
+                    <div class="col-12 col-md-8 map">
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7052497522245!2d114.13115027594363!3d22.36475564055469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f8998ad02b01%3A0x7b71633ec6df2d6!2sKwai%20Fong%20Industrial%20Building%2C%209%20Kwai%20Cheong%20Rd%2C%20Kwai%20Chung%2C%20Hong%20Kong!5e0!3m2!1sen!2sbd!4v1701499363870!5m2!1sen!2sbd"
+                                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -631,10 +638,37 @@
                 </div>
             </div>
         </div>
+        <form class="login" id="login-form" style="display: none">
+            <h2>Get Started</h2>
+            <input type="text" placeholder="Title"/>
+            <input type="text" placeholder="Email"/>
+            <input type="text" placeholder="Type Your Query Here"/>
+            <input type="submit" value="Submit"/>
+            <div class="links">
+                <a href="javascript:void(0)" onclick="hide_modal();">Close</a>
+            </div>
+        </form>
 
-
-        <a href="#" class="fixed-button"><img src="images/messenger.png" height="30px"> </a>
+        <a href="javascript:void(0)" onclick="show_modal();" class="fixed-button"><img src="images/messenger.png" height="40px"> </a>
     </div>
+
+
+<script>
+    function show_modal(){
+        let login = document.getElementById('login-form');
+        login.style.display = 'block';
+    }
+    function hide_modal(){
+        let login = document.getElementById('login-form');
+        login.style.display = 'none';
+    }
+
+    function mobile_modal(){
+        let mobile = document.getElementById('phonesnavbar');
+        mobile.style.display = 'none';
+        console.log('onclick works');
+    }
+</script>
 
 </body>
 <!--Powered by iFour Limited-->
