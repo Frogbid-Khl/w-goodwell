@@ -1,0 +1,334 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    width: 580px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#container {
+    width: 772px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+#container a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url("img/button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+}
+
+#container a:hover {
+    color: black;
+    /* background-color: #59b6f5;*/
+}
+
+#no1 {
+    width: 190px;
+    line-height: 60px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#no1 a {
+    height: 60px;
+}
+
+#line1 {
+    font-size: 0;
+    width: 5px;
+    height: 40px;
+    color: #fff;
+    background-color: #000000;
+    margin: auto;
+}
+
+#line2 {
+    font-size: 0;
+    width: 424px;
+    height: 5px;
+    color: #fff;
+    background-color: #000000;
+    margin: auto;
+}
+
+#line3, #line9 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 20px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 174px;
+    float: left;
+}
+
+#line4, #line10 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 20px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 205px;
+    float: left;
+}
+
+#line5, #line11 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 20px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 204px;
+    float: left;
+}
+
+#line6 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 75px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 108px;
+    float: left;
+}
+
+#no2, #no7 {
+    display: inline;
+    clear: both;
+    margin-left: 86px;
+    margin-top: auto;
+    float: left;
+}
+
+#no2 a, #no4 a, #no8 a {
+    width: 190px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#no3 {
+    display: inline;
+    border: 1px solid #000;
+    margin-left: 58px;
+    float: left;
+}
+
+#no3 a, #no5 a, #no6 a, #no7 a, #no9 a, #no10 a {
+    width: 190px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#no4 {
+    display: inline;
+    border: 1px solid #000;
+    margin-left: 53px;
+    float: left;
+}
+
+#no5 {
+    display: inline;
+    margin-left: 97px;
+    float: left;
+}
+
+#line7 {
+    font-size: 0;
+    width: 5px;
+    height: 40px;
+    color: #fff;
+    background-color: #000000;
+    margin: auto;
+}
+
+#line8 {
+    font-size: 0;
+    width: 424px;
+    height: 5px;
+    color: #fff;
+    background-color: #000000;
+    margin: auto;
+}
+
+#no6 {
+    width: 190px;
+    line-height: 60px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#no8{
+    display: inline;
+    margin-left: 10px;
+    float: left;
+}
+#no9{
+    display: inline;
+    margin-left: 10px;
+    float: left;
+}
+
+#line12 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 120px;
+    float: left;
+}
+
+#line13{
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 205px;
+    float: left;
+}
+
+#line14{
+    font-size: 0;
+    display: inline;
+    width: 100px;
+    height: 5px;
+    color: #fff;
+    background-color: #000000;
+    float: left;
+    margin-top: 20px;
+}
+
+#line15{
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 31px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: -5px;
+    float: left;
+    margin-top: 20px;
+}
+
+#line16{
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 200px;
+    float: left;
+}
+
+#no10{
+    display: inline;
+    margin-left: 10px;
+    float: left;
+}
+
+#no11, #no12, #no13 {
+    display: inline;
+    margin-left: 10px;
+    float: left;
+}
+
+#no11 a, #no12 a,#no13 a,#no14 a,#no15 a{
+    width: 174px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#line17 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 325px;
+    float: left;
+    margin-top: -6px;
+}
+#line18 {
+    font-size: 0;
+    display: inline;
+    width: 5px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    margin-left: 305px;
+    float: left;
+    margin-top: -6px;
+}
+
+#no14{
+    display: inline;
+    float: left;
+    margin-left: 235px;
+}
+#no15{
+    display: inline;
+    float: left;
+    margin-left: 150px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+@keyframes flip {
+    from {
+        transform: perspective(400px) rotateX(0);
+    }
+    to {
+        transform: perspective(400px) rotateX(180deg);
+    }
+}
+
+/* Apply the animation to the text */
+#no1 {
+    perspective: 1000px;
+}
+
+.flip-animation {
+    animation: flip 0.6s ease;
+}
+
+
+@media only screen and (max-width: 992px) {
+    body {
+        min-height: 200vh;
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="../index.html">
+    <img src="../images/img_1.png" alt="logo" style="margin: 20px; width: 200px">
+</a>
+
+
+<div id="container">
+
+    <div id="no1"><a href="javascript:void(0);" onclick="flipText();" id="one">公司董事</a></div>
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="line3"></div>
+    <div id="line4"></div>
+    <div id="line5"></div>
+    <div id="no2"><a href="#">安全管理系統</a></div>
+    <div id="line6"></div>
+    <div id="no5"><a href="javascript:void(0);" onclick="flipText2();" id="two">公司秘書</a></div>
+    <div class="clear"></div>
+    <div id="no6"><a href="javascript:void(0);">業務經理</a></div>
+    <div class="clear"></div>
+    <div id="line7"></div>
+    <div id="line8"></div>
+    <div id="line9"></div>
+    <div id="line10"></div>
+    <div id="line11"></div>
+    <div class="clear"></div>
+    <div id="no7"><a href="#">救生員部主管</a></div>
+    <div id="no8"><a href="#">救生員</a></div>
+    <div id="no9"><a href="#">泳池保養部主管</a></div>
+    <div class="clear"></div>
+    <div id="line12"></div>
+    <div id="line13"></div>
+    <div id="line14"></div>
+    <div id="line15"></div>
+    <div id="line16"></div>
+    <div class="clear"></div>
+    <div id="no10"><a href="#">泳池保養師傅</a></div>
+    <div id="no11"><a href="#">清潔部</a></div>
+    <div id="no12"><a href="#">泳池保養學徒</a></div>
+    <div id="no13"><a href="#">工程部主管</a></div>
+    <div class="clear"></div>
+    <div id="line17"></div>
+    <div id="line18"></div>
+    <div class="clear"></div>
+    <div id="no14"><a href="#">工程師傅</a></div>
+    <div id="no15"><a href="#">工程學徒</a></div>
+
+</div>
+
+<script>
+    function flipText() {
+        var text = document.getElementById('one');
+        text.classList.add('flip-animation');
+        setTimeout(function () {
+            if (text.innerText === '公司董事') {
+                text.innerText = '陳文錦小姐'; // Change this to the new text you want
+            } else {
+                text.innerText = '公司董事'; // Change this back to the original text
+            }
+            text.classList.remove('flip-animation');
+        }, 300); // Adjust this time to match your animation duration
+    }
+    function flipText2() {
+        var text = document.getElementById('two');
+        text.classList.add('flip-animation');
+        setTimeout(function () {
+            if (text.innerText === '公司董事') {
+                text.innerText = '陳文錦小姐'; // Change this to the new text you want
+            } else {
+                text.innerText = '公司董事'; // Change this back to the original text
+            }
+            text.classList.remove('flip-animation');
+        }, 300); // Adjust this time to match your animation duration
+    }
+</script>
+</body>
+</html>

@@ -1125,13 +1125,13 @@ color:#2770b5 ;
         display: block;
     }
     .facebook{
-        margin-left: 120px;
+        margin-left: 70px;
     }
 }
 .navbar .navbar-header .navbar-toggler span {
     height: 2px;
     width: 22px;
-    background-color: #929aad;
+    background-color: #0b2c5f;
     display: block;
 }
 .navbar .navbar-header .navbar-toggler span:not(:last-child) {
