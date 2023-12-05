@@ -4,15 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Structure</title>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css">
+    <script src="../scripts/jquery-3.5.1.min.js"></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<a href="../index.html">
-    <img src="../images/img_1.png" alt="logo" style="margin: 20px; width: 200px">
-</a>
+<nav class="navbar" style="margin-top: -200px">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a class="navbar-toggler" data-toggle="open-navbar1">
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="navbar-toggler facebook" data-toggle="open-navbar1">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="../index.html">
+                <img src="../images/img_1.png" alt="logo" style="width: 120px; height: auto;">
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+                <li><a href="../index.html">主頁</a></li>
+                <li class="navbar-dropdown">
+                    <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                        公司簡介 <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" id="my-dropdown-id">
+                        <li><a href="../index.html#about">公司簡介</a></li>
+                        <li><a href="../index.html#優質救生員服務">企業價值</a></li>
+                        <li><a href="#">公司架構圖</a></li>
+                    </ul>
+                </li>
+                <li><a href="../index.html#本公司服務內容">本公司服務內容</a></li>
+                <li><a href="../index.html#聯絡我們">聯絡我們</a></li>
+                <li id="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li id="instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
-<div id="container">
+<div id="container" style="margin-top: 200px; !important;">
 
     <div id="no1"><a href="javascript:void(0);" onclick="flipText();" id="one">公司董事</a></div>
     <div id="line1"></div>
@@ -55,6 +95,7 @@
 
 </div>
 
+<script src="script.js"></script>
 <script>
     function flipText() {
         var text = document.getElementById('one');
