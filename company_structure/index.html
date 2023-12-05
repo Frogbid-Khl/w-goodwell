@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flow Chart</title>
+    <title>Company Structure</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -61,7 +61,7 @@
         text.classList.add('flip-animation');
         setTimeout(function () {
             if (text.innerText === '公司董事') {
-                text.innerText = '陳文錦小姐'; // Change this to the new text you want
+                text.innerText = '葉國偉先生'; // Change this to the new text you want
             } else {
                 text.innerText = '公司董事'; // Change this back to the original text
             }
@@ -72,10 +72,10 @@
         var text = document.getElementById('two');
         text.classList.add('flip-animation');
         setTimeout(function () {
-            if (text.innerText === '公司董事') {
+            if (text.innerText === '公司秘書') {
                 text.innerText = '陳文錦小姐'; // Change this to the new text you want
             } else {
-                text.innerText = '公司董事'; // Change this back to the original text
+                text.innerText = '公司秘書'; // Change this back to the original text
             }
             text.classList.remove('flip-animation');
         }, 300); // Adjust this time to match your animation duration
