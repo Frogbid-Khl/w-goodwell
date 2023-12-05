@@ -8,14 +8,6 @@ body {
     background-position: center;
 }
 
-h1 {
-    width: 580px;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin: 40px auto;
-}
-
 #container {
     width: 772px;
     font-family: verdana, arial, helvetica, sans-serif;
@@ -45,10 +37,6 @@ h1 {
     line-height: 60px;
     margin: auto;
     border-radius: 10px;
-}
-
-#no1 a {
-    height: 60px;
 }
 
 #line1 {
@@ -310,10 +298,10 @@ h1 {
 
 @keyframes flip {
     from {
-        transform: perspective(400px) rotateX(0);
+        transform: perspective(400px) rotateY(0);
     }
     to {
-        transform: perspective(400px) rotateX(180deg);
+        transform: perspective(400px) rotateY(180deg);
     }
 }
 
@@ -335,6 +323,15 @@ h1 {
         color: #ffffff !important;
         /* background-color: #59b6f5;*/
     }
+}
+
+.container {
+    width: 1170px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navbar,
