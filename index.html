@@ -52,10 +52,10 @@
                     <span></span>
                 </button>
                 <a class="navbar-toggler" data-toggle="open-navbar1">
-                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    <img src="images/instagram.png" alt="instagram" style="height: 35px">
                 </a>
                 <a class="navbar-toggler facebook" data-toggle="open-navbar1">
-                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <img src="images/facebook.png" alt="instagram" style="height: 35px">
                 </a>
                 <a href="#">
                     <img src="images/img_1.png" alt="logo" style="width: 120px; height: auto;">
@@ -77,8 +77,12 @@
                     </li>
                     <li><a href="#本公司服務內容">本公司服務內容</a></li>
                     <li><a href="#聯絡我們">聯絡我們</a></li>
-                    <li id="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li id="instagram"><a href="#聯絡我們"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li id="facebook"><a
+                            href="https://www.facebook.com/people/%E5%81%89%E4%B8%80%E6%B3%B3%E6%B1%A0%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100086197372046/?locale=hi_IN&paipv=0&eav=AfZnfnuQW9tUIkp8i1EQpV9Kt4Ov-5L2b9dMrOXg6t-M7Aa0r0VsSHdD0_oVz4M3Yns"
+                            target="_blank"><img src="images/facebook.png" alt="instagram" style="height: 25px"></a></li>
+                    <li id="instagram"><a
+                            href="https://www.instagram.com/ikw_s_p_m_co.Ltd/?fbclid=IwAR0cZPZyguj0gMffYIVc-RF6D5ayRn0vN8JdsfjG9jyaPqnJe6uorce4FS0"
+                            target="_blank"><img src="images/instagram.png" alt="instagram" style="height: 26px"> </a></li>
                 </ul>
             </div>
         </div>
@@ -194,7 +198,6 @@
                 </div>
                 <div class="line"></div>
             </div>
-
         </div>
         <div class="property" id="本公司服務內容">
             <div class="container">
@@ -254,7 +257,7 @@
                     <div class="top" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
                         <div class="item">
                             <div class="img">
-                                <div class="swiper-container " id="swiper1">
+                                <div class="swiper-container " id="swiper5">
                                     <div class="swiper-wrapper">
                                         <div class='swiper-slide'>
                                             <img src='images/demo.jpg'/>
@@ -557,30 +560,33 @@
         console.log('onclick works');
     }
 
-    function scrollToId(id)
-    {
-        let navbarHeight = 70;
-        let target = document.getElementById(id)
-        ;
-        if (target) {
+    // Function to handle scrolling to the target element with an offset
+    function scrollToElement(elementId, offset) {
+        const element = document.getElementById(elementId);
+        if (element) {
+            const offsetTop = element.offsetTop - offset;
             window.scrollTo({
-                top: target.offsetTop - navbarHeight,
+                top: offsetTop,
                 behavior: 'smooth'
             });
         }
     }
 
-    window.addEventListener('hashchange', function() {
-        let hash = window.location.hash.substring(1);
-        scrollToId(hash);
+    // Call the function when the link is clicked
+    document.querySelector('a[href="#本公司服務內容"]').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        scrollToElement('本公司服務內容', 200); // Scroll to the target element with a 200px offset
+    });
+    document.querySelector('a[href="#about"]').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        scrollToElement('about', 150); // Scroll to the target element with a 200px offset
+    });
+    document.querySelector('a[href="#優質救生員服務"]').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        scrollToElement('優質救生員服務', 150); // Scroll to the target element with a 200px offset
     });
 
-    window.addEventListener('load', function() {
-        if (window.location.hash) {
-            let hash = window.location.hash.substring(1);
-            scrollToId(hash);
-        }
-    });
+
 
     let dropdowns = document.querySelectorAll('.navbar .dropdown-toggler')
     let dropdownIsOpen = false
