@@ -919,10 +919,10 @@ color:#2770b5 ;
 .slider .slide {
     height: 80px;
     width: 250px;
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     margin: 0 20px;
-    justify-content: center;
+    background: #7dcced;
 }
 
 .iconbutton {
