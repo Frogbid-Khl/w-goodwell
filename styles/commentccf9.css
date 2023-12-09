@@ -1123,6 +1123,8 @@ color:#2770b5 ;
 @media (max-width: 768px) {
     .navbar .navbar-header .navbar-toggler {
         display: block;
+        padding: 0;
+        margin-right: -10px;
     }
     .facebook{
         margin-left: 70px;
