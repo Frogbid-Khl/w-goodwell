@@ -515,8 +515,20 @@ body {
 .navbar .navbar-header > a span {
     color: #66f;
 }
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
     .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {
         position: relative;
         box-shadow: none;
@@ -524,27 +536,277 @@ body {
     .navbar {
         padding: 0 !important;
     }
-    #no1{
+    #container{
+        width: 420px;
+    }
+    #mno1 {
         width: 120px;
+        line-height: 20px;
+        margin: auto;
+        border-radius: 10px;
     }
-    a{
-        padding: 0;
+    #mline1{
+        font-size: 0;
+        width: 5px;
+        height: 40px;
+        color: #fff;
+        background-color: #000000;
+        margin: auto;
     }
-    #line2{
-        width: 255px;
+    #mline2 {
+        font-size: 0;
+        width: 300px;
+        height: 5px;
+        color: #fff;
+        background-color: #000000;
+        margin: auto;
     }
-    #line3{
-        margin-left: 68px;
+    #mline3, #mline9, #mline12{
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 20px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 60px;
+        float: left;
     }
-    #line4{
-        margin-left: 245px;
+    #mline4, #mline10, #mline14 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 20px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 143px;
+        float: left;
     }
-    #no2{
-        margin-top: -23px;
-        margin-left: 5px;
+
+    #mline5, #mline11, #mline15{
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 20px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 142px;
+        float: left;
     }
-    #no2 a {
+    #mno2, #mno7, #mno10{
+        display: inline;
+        clear: both;
+        margin-left: 3px;
+        margin-top: auto;
+        float: left;
+    }
+
+    #mno3 a, #mno5 a, #mno6 a, #mno7 a, #mno11 a, #mno12 a, #mno13 a {
+        width: 145px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mno2 a, #mno4 a, #mno8 a, #mno14 a, #mno15 a, #mno16 a, #mno17 a {
+        width: 135px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #mline6 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 45px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 70px;
+        float: left;
+    }
+    #mline {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 45px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 60px;
+        float: left;
+    }
+    #mno5, #mno9 {
+        display: inline;
+        margin-left: 55px;
+        float: left;
+    }
+    #mno6 {
+        width: 145px;
+        line-height: 45px;
+        margin: auto;
+        border-radius: 10px;
+    }
+    #mline7 {
+        font-size: 0;
+        width: 5px;
+        height: 45px;
+        color: #fff;
+        background-color: #000000;
+        margin: auto;
+    }
+    #mline8 {
+        font-size: 0;
+        width: 300px;
+        height: 5px;
+        color: #fff;
+        background-color: #000000;
+        margin: auto;
+    }
+    #mno8{
+        display: inline;
+        margin-left: 2px;
+        float: left;
+    }
+    #mno9{
+        display: inline;
+        margin-left: 2px;
+        float: left;
+    }
+    #mline16{
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 45px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 89px;
+        float: left;
+    }
+
+    #mno11 {
+        display: inline;
+        margin-left: 58px;
+        float: left;
+    }
+    #mline17{
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 20px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 35px;
+        float: left;
+    }
+    #mline18{
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 20px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 80px;
+        float: left;
+    }
+    #mline19{
+        font-size: 0;
+        display: inline;
         width: 150px;
+        height: 5px;
+        color: #fff;
+        background-color: #000000;
+        float: left;
     }
-}*/
+    #mline20{
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 20px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 145px;
+        float: left;
+        margin-top: -5px;
+    }
+    #mno12{
+        display: inline;
+        margin-left: 25px;
+        float: left;
+    }
+    #mno13{
+        display: inline;
+        margin-left: 0;
+        float: left;
+    }
+    #mline21 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 50px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 35px;
+        float: left;
+    }
+    #mline22 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 15px;
+        color: #fff;
+        background-color: #000000;
+        margin-left: 80px;
+        float: left;
+    }
+    #mline23 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 50px;
+        color: #fff;
+        background-color: #000000;
+        float: left;
+    }
+    #mno14{
+        display: inline;
+        margin-left: 0;
+        float: left;
+    }
+    #mno15{
+        display: inline;
+        margin-left: 100px;
+        float: left;
+    }
+    #mline24 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 50px;
+        color: #fff;
+        background-color: #000000;
+        float: left;
+        margin-left: 35px;
+    }
+    #mno16{
+        display: inline;
+        margin-left: 100px;
+        float: left;
+    }
+    #mline25 {
+        font-size: 0;
+        display: inline;
+        width: 5px;
+        height: 50px;
+        color: #fff;
+        background-color: #000000;
+        float: left;
+        margin-left: 120px;
+    }
+    #mno17{
+        display: inline;
+        margin-left: 275px;
+        float: left;
+    }
+
+}
 

@@ -44,8 +44,8 @@
         <div class="container">
 
             <div class="navbar-header">
-                <button class="navbar-toggler" data-toggle="open-navbar1">
-                    <img src="images/shape.png" alt="menu" style="height: 35px">
+                <button class="navbar-toggler" data-toggle="open-navbar1" id="toggleButton">
+                    <img id="menuImage" src="images/nav-2.png" alt="menu" style="height: 35px">
                 </button>
                 <a class="navbar-toggler" data-toggle="open-navbar1">
                     <img src="images/instagram.png" alt="instagram" style="height: 35px">
@@ -661,7 +661,20 @@
             })
     }
 
-    handleSmallScreens()
+    handleSmallScreens();
+
+    const button = document.getElementById('toggleButton');
+    const image = document.getElementById('menuImage');
+
+    // Add a click event listener to the button
+    button.addEventListener('click', function() {
+        // Change the image source upon button click
+        if (image.src.includes('nav-2.png')) {
+            image.src = 'images/shape.png';
+        } else {
+            image.src = 'images/nav-2.png';
+        }
+    });
 </script>
 
 </body>

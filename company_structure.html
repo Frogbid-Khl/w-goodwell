@@ -59,8 +59,8 @@
         <div class="container">
 
             <div class="navbar-header">
-                <button class="navbar-toggler" data-toggle="open-navbar1">
-                    <img src="images/shape.png" alt="menu" style="height: 35px">
+                <button class="navbar-toggler" data-toggle="open-navbar1" id="toggleButton">
+                    <img id="menuImage" src="images/nav-2.png" alt="menu" style="height: 35px">
                 </button>
                 <a class="navbar-toggler" data-toggle="open-navbar1">
                     <img src="images/instagram.png" alt="instagram" style="height: 35px">
@@ -101,7 +101,7 @@
         </div>
     </nav>
     <div class="lazy" data-paroller-factor="0.5">
-        <div id="container" style="margin-top: 200px !important; margin-bottom: 200px">
+        <div id="container" class="desktop" style="margin-top: 200px !important; margin-bottom: 200px">
             <div id="no1"><a href="javascript:void(0);" onclick="flipText();" id="one">公司董事</a></div>
             <div id="line1"></div>
             <div id="line2"></div>
@@ -140,6 +140,59 @@
             <div class="clear"></div>
             <div id="no14"><a href="#">工程師傅</a></div>
             <div id="no15"><a href="#">工程學徒</a></div>
+
+        </div>
+        <div id="container" class="mobile" style="margin-top: 200px !important; margin-bottom: 200px">
+            <div id="mno1"><a href="javascript:void(0);" onclick="mflipText();" id="mone">公司董事</a></div>
+            <div id="mline1"></div>
+            <div id="mline2"></div>
+            <div id="mline3"></div>
+            <div id="mline4"></div>
+            <div id="mline5"></div>
+            <div id="mno2"><a href="#">安全管理系統</a></div>
+            <div id="mline6"></div>
+            <div id="mno5"><a href="javascript:void(0);" onclick="mflipText2();" id="mtwo">公司秘書</a></div>
+            <div class="clear"></div>
+            <div id="mno6"><a href="javascript:void(0);">業務經理</a></div>
+            <div class="clear"></div>
+            <div id="mline7"></div>
+            <div id="mline8"></div>
+            <div id="mline9"></div>
+            <div id="mline10"></div>
+            <div id="mline11"></div>
+            <div class="clear"></div>
+            <div id="mno7"><a href="#">救生員部主管</a></div>
+            <div id="mno8"><a href="#">救生員</a></div>
+            <div id="mno9"><a href="#">泳池保養部主管</a></div>
+            <div class="clear"></div>
+            <div id="mline12"></div>
+            <div id="mline13"></div>
+            <div id="mline14"></div>
+            <div id="mline15"></div>
+            <div class="clear"></div>
+            <div id="mno10"><a href="#">泳池保養師傅</a></div>
+            <div id="mline16"></div>
+            <div id="mno11"><a href="#">清潔部</a></div>
+            <div class="clear"></div>
+            <div id="mline17"></div>
+            <div id="mline18"></div>
+            <div id="mline19"></div>
+            <div id="mline20"></div>
+            <div id="mline22"></div>
+            <div class="clear"></div>
+            <div id="mline21"></div>
+            <div id="mno12"><a href="#">清潔部</a></div>
+            <div id="mno13"><a href="#">泳池保養學徒</a></div>
+            <div id="mline23"></div>
+            <div class="clear"></div>
+            <div id="mno14"><a href="#">泳池保養師傅</a></div>
+            <div id="mline24"></div>
+            <div id="mno15"><a href="#">工程部主管</a></div>
+            <div class="clear"></div>
+            <div id="mno16"><a href="#">工程師傅</a></div>
+            <div id="mline25"></div>
+            <div class="clear"></div>
+            <div id="mno17"><a href="#">工程學徒</a></div>
 
         </div>
     </div>
@@ -325,6 +378,43 @@
             text.classList.remove('flip-animation');
         }, 300); // Adjust this time to match your animation duration
     }
+    function mflipText() {
+        var text = document.getElementById('mone');
+        text.classList.add('flip-animation');
+        setTimeout(function () {
+            if (text.innerText === '公司董事') {
+                text.innerText = '葉國偉先生'; // Change this to the new text you want
+            } else {
+                text.innerText = '公司董事'; // Change this back to the original text
+            }
+            text.classList.remove('flip-animation');
+        }, 300); // Adjust this time to match your animation duration
+    }
+    function mflipText2() {
+        var text = document.getElementById('mtwo');
+        text.classList.add('flip-animation');
+        setTimeout(function () {
+            if (text.innerText === '公司秘書') {
+                text.innerText = '陳文錦小姐'; // Change this to the new text you want
+            } else {
+                text.innerText = '公司秘書'; // Change this back to the original text
+            }
+            text.classList.remove('flip-animation');
+        }, 300); // Adjust this time to match your animation duration
+    }
+
+    const button = document.getElementById('toggleButton');
+    const image = document.getElementById('menuImage');
+
+    // Add a click event listener to the button
+    button.addEventListener('click', function() {
+        // Change the image source upon button click
+        if (image.src.includes('nav-2.png')) {
+            image.src = 'images/shape.png';
+        } else {
+            image.src = 'images/nav-2.png';
+        }
+    });
 </script>
 
 </body>
